@@ -206,11 +206,10 @@ a.btn-scroll {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: #FACB0F;
-    background-color: #ffffff00;
-    border: solid 1px #FACB0F;
+    color: #ffffff;
+    background-color: #17ab0a;
     border-radius: 15px;
-    box-shadow: 0px 0px 5px #FACB0F;
+    box-shadow: 0px 0px 10px #17ab0a;
 }
 
 a.btn-ofert {
@@ -221,9 +220,9 @@ a.btn-ofert {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    text-shadow: 0 3px 3px #8D7101;
+    text-shadow: 0 3px 3px #44444450;
     color: #FFFFFF;
-    background-image: linear-gradient(#FACB0F, #C8A104);
+    background-image: linear-gradient(rgb(101, 250, 15), #17ab0a);
     border-radius: 15px;
     box-shadow: 0px 5px 5px #44444450;
 }
@@ -383,4 +382,12 @@ a.btn-ofert {
     div#more-depoiments {
         display: none;
     }
+}
+
+/* atualizações 08.08 */
+
+div#novo-depoimento iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
